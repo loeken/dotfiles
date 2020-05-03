@@ -38,10 +38,10 @@
 *.color15: #fdf6e3
 
 !! URxvt Appearance
-URxvt.font: -*-rissole-*
-URxvt.boldFont: -*-rissole-*
-URxvt.italicFont: -*-rissole-*
-URxvt.boldItalicfont: -*-rissole-*
+URxvt.font: Iosevka
+URxvt.boldFont: Iosevka
+URxvt.italicFont: Iosevka
+URxvt.boldItalicfont: Iosevka
 URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.geometry: 92x24
@@ -55,10 +55,10 @@ URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
 
-#*.font: xft:Iosevka:style=Regular:size=8
-#*.boldFont: xft:Iosevka:style=Bold:size=8
-#*.italicFont: xft:Iosevka:style=Italic:size=8
-#*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=8
+*.font: xft:Iosevka:style=Regular:size=8
+*.boldFont: xft:Iosevka:style=Bold:size=8
+*.italicFont: xft:Iosevka:style=Italic:size=8
+*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=8
 
 !! Common Keybinds for Navigations
 URxvt.keysym.Shift-Up: command:\033]720;1\007
