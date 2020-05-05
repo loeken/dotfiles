@@ -190,12 +190,9 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
-exec_always --no-startup-id loadbar
-exec_always --no-startup-id setxkbmap de
-#exec --no-startup-id xrandr --output HDMI-1 --off
-#exec --no-startup-id xrandr --output DP-1 --auto
-#exec_always --no-startup-id xrandr --output DP-1 --mode 5120x1440
-exec_always --no-startup-id feh --bg-scale /home/loeken/Pictures/wallpaper.png
+#exec_always --no-startup-id loadbar
+#exec_always --no-startup-id setxkbmap de
+#exec_always --no-startup-id feh --bg-scale /home/loeken/Pictures/wallpaper.png
 #exec --no-startup-id /usr/bin/picom -b
 
 for_window [class=".*"] border pixel 0
