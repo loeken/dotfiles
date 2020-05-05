@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo pacman -S polybar rofi
+mkdir -p ~/.config/i3
+mkdir -p ~/.config/rofi
+cp i3/config ~/.config/i3/config
+cp rofi/config ~/.config/rofi/config
+cp .xinitrc ~/
+cp .Xresources ~/
