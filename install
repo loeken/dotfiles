@@ -1,4 +1,5 @@
 #!/bin/bash
+export EDITOR=nano
 echo "installing rofi from main repo"
 sudo pacman -S rofi
 echo "installing polybar from aur"
@@ -6,7 +7,8 @@ pacaur -S polybar
 mkdir -p ~/.config/i3
 mkdir -p ~/.config/rofi
 mkdir -p ~/.config/polybar
-cp polybar/config ~/.config/i3/polybar
+cp polybar/config ~/.config/polybar/config
 cp i3/config ~/.config/i3/config
 cp rofi/config ~/.config/rofi/config
 cp .xinitrc ~/
+sudo cp loadbar /usr/local/bin/loadbar
