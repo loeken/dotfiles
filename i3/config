@@ -192,7 +192,7 @@ bindsym $mod+r mode "resize"
 #}
 exec_always --no-startup-id loadbar
 #exec_always --no-startup-id setxkbmap de
-#exec_always --no-startup-id feh --bg-scale /home/loeken/Pictures/wallpaper.png
+#exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
 #exec --no-startup-id /usr/bin/picom -b
 
 for_window [class=".*"] border pixel 0
@@ -211,4 +211,4 @@ smart_borders no_gaps
 gaps inner 10
 gaps outer 10
 
-bindsym --release Print exec /usr/bin/scrot -s -e 'mv $f /home/loeken/Pictures/'
+#bindsym --release Print exec /usr/bin/scrot -s -e 'mv $f ~/Pictures/'
